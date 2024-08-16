@@ -5,7 +5,7 @@ import MainContent from '../CategoriesComp/MainContent'
 import { deviceHeight, deviceWidth } from '../Dimesions/Dimensions'
 
 const Categories = () => {
-    const [selectedOccupation, setSelectedOccupation] = useState('Astrologer');
+const [selectedOccupation, setSelectedOccupation] = useState('Astrologer'); {/*Default is Astrologer*/}
     const handleOccupationSelect = (occupation) => {
         setSelectedOccupation(occupation);
       };

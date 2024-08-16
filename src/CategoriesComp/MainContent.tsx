@@ -54,7 +54,7 @@ useEffect(() => {
     } else {
       setFilteredData(WorkCategories);
     }
-  }, [selectedOccupation]);
+  }, [selectedOccupation]);//Prop Recieved from Header file 
   return (
     <SafeAreaView style={{flex:1}}> 
         <View style={stylesheet.inputView}>

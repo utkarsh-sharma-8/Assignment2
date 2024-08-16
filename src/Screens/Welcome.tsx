@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native'
 const Welcome = () => {
   return (
     <View style={stylesheet.view}>
+      {/* Welcome Text */}
       <Text style={stylesheet.text}>Welcome</Text>
     </View>
   )

@@ -120,7 +120,7 @@ const stylesheet=StyleSheet.create({
         width:deviceWidth/12,
         height:deviceHeight/24,
         borderRadius:100,
-        marginLeft:deviceWidth/6
+        marginLeft:deviceWidth/8
     },
     nameText:{
         color:"black",

@@ -5,7 +5,7 @@ import MainContent from '../CategoriesComp/MainContent'
 import { deviceHeight, deviceWidth } from '../Dimesions/Dimensions'
 
 const Categories = () => {
-    const [selectedOccupation, setSelectedOccupation] = useState('');
+    const [selectedOccupation, setSelectedOccupation] = useState('Astrologer');
     const handleOccupationSelect = (occupation) => {
         setSelectedOccupation(occupation);
       };
@@ -37,6 +37,7 @@ const styleSheet=StyleSheet.create({
         flex:1,
         width:'100%',
         height:"100%",
-        marginBottom:10
+        marginBottom:10,
+        marginRight:6
     }
 })

@@ -30,7 +30,7 @@ const [filteredData, setFilteredData] = useState(WorkCategories);
 const handleSearch = (text) => {
     setSearchQuery(text);
     if (text) {
-        const newData = WorkCategories.filter(item => {
+        const newData = filteredData.filter(item => {
             const itemName = item.name ? item.name.toUpperCase() : ''.toUpperCase();
             const itemCountry = item.country ? item.country.toUpperCase() : ''.toUpperCase();
             const itemOccupation = item.occupation ? item.occupation.toUpperCase() : ''.toUpperCase();
